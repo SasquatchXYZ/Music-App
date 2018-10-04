@@ -95,6 +95,6 @@ $("#submit-band-name").on('click', function(event) {
     $("#inputBand").val("");
 
     $("#band-search-card").appendTo($("#first-column"));
-    $("#second-column, #third-column, #video-display, #video-display-2").empty();
+    $("#second-column, #third-column, #video-1, #video-2, #video-3, #video-4, #video-5, #video-6").empty();
 
 });
