@@ -69,10 +69,10 @@ function queryYoutubeAPI(band) {
             console.log(videos);
 
             for (var v = 0; v < snippets.length; v++) {
-                let videoPlayer = $(`<div class="embed-responsive embed-responsive-16by9">
+                    let videoPlayer = $(`<div class="embed-responsive embed-responsive-16by9">
                                 <iframe class="embed-responsive-item" src=${videos[v]} allowfullscreen></iframe>
                                     </div>`);
-                console.log(videoPlayer);
+                    console.log(videoPlayer);
 
                 $(`#video-${v + 1}`).append(videoPlayer);
             }
